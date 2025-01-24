@@ -1,18 +1,65 @@
 body{
     align-items: center;
-    background-color: rgb(255, 227, 186);
+    background-color:hsl(30, 54%, 90%);
+    margin: 3vw 20vw 3vw 20vw;
+    color: hsl(30, 10%, 34%);
 }
 
 
 #recipe-body{
-    border-radius: 20%;
-    width: 300;
-    padding: 100;
-    background-color: white;
+    padding: 2vw;
+    
+    border-radius: 18px;
+
+
+    background-color: hsl(0, 0%, 100%);
+
+    
 }
 
 #preparation-time{
     height: 100;
-    width: 100%;
-    background-color: rgb(252, 221, 226);
+    border-radius: 18px;
+    padding: 10px;
+    background-color: hsl(330, 100%, 98%);
 }
+
+
+#recipe-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* th, td{
+    border-bottom: solid rgb(170, 167, 167) 1px;
+} */
+
+img{
+    border-radius: 18px;
+}
+h2{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+li{
+    color: hsl(30, 10%, 34%);
+    margin: 15px;
+}
+
+li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* table{
+    justify-content: left;
+}
+ */
