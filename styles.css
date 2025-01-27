@@ -3,6 +3,13 @@ body{
     background-color:hsl(30, 54%, 90%);
     margin: 3vw 20vw 3vw 20vw;
     color: hsl(30, 10%, 34%);
+    /* overflow: auto;
+    word-wrap: break-word;
+    overflow-wrap:break-word; */
+
+    max-width: 100%;
+    width: auto;
+
 }
 
 
@@ -31,8 +38,9 @@ body{
     align-items: center;
     
 }
-/* th, td{
+/* tr{
     border-bottom: solid rgb(170, 167, 167) 1px;
+    margin: 15px;
 } */
 
 img{
@@ -59,7 +67,14 @@ h1{
     font-style: normal;
 }
 
-/* table{
+table{
+    border-collapse: collapse;
     justify-content: left;
+    border-radius: 18px;
 }
- */
+
+img{
+    width: 100%;
+}
+
+@media screen and (max-width: 290)
