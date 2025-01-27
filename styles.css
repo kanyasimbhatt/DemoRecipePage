@@ -3,9 +3,9 @@ body{
     background-color:hsl(30, 54%, 90%);
     margin: 3vw 20vw 3vw 20vw;
     color: hsl(30, 10%, 34%);
-    /* overflow: auto;
+    overflow: auto;
     word-wrap: break-word;
-    overflow-wrap:break-word; */
+    overflow-wrap:break-word;
 
     max-width: 100%;
     width: auto;
